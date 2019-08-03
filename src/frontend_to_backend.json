@@ -1,0 +1,37 @@
+[{
+    "function":"login",
+    "username":"you",
+    "password":"8numwithtext",
+    "time":"timestamp"
+},{
+    "function":"sign",
+    "username":"you",
+    "password":"8numwithtext",
+    "checkpwd":"8numwithtext",
+    "someinfo_name":"someinfo(Obeject)",
+    "time":"timestamp"
+},
+{
+    "section":"home/mine/section…",
+    "method":"get",
+    "time":"timestamp"
+},{
+    "section":"info",
+    "method":"get"
+},{
+    "section":"info",
+    "method":"post",
+    "name":"Stanly",
+    "gender":"male",
+    "age":"100",
+    "intro":"还",
+    "department":"tech",
+    "grade":"second"
+},{
+    "function":"reply",
+    "from":"you",
+    "to":"someonelse",
+    "passageid":"someonelsen#29",
+    "text":"你说的都对",
+    "relytime":"timestamp"
+}]

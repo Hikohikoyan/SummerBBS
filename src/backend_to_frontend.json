@@ -1,0 +1,43 @@
+[{
+    "function":"login",
+    "username":"you",
+    "loginstatus":0,
+    "errmsg":"普通用户 0/超级用户 3",
+    "time":"timestamp"
+},{
+    "function":"sign",
+    "username":"you",
+    "loginstatus":0,
+    "errmsg":"注册成功 0/密码不一致 1/信息填写错误 2",
+    "someinfo_name":"someinfo(Obeject)",
+    "time":"timestamp"
+},
+[{
+    "total":2
+},{
+    "passageid":"for home passage id",
+    "author":"Dr.Stanly",
+    "icon":"src",
+    "info":"I'm Bad guy",
+    "title":"Shengdiyago",
+    "text":"passage-content",
+    "time":"posttime"
+},{
+    "passageid":"someone+num",
+    "author":"Dr.Stanly",
+    "icon":"src",
+    "info":"I'm Bad guy",
+    "title":"Shengdiyago",
+    "text":"passage-content",
+    "time":"posttime"
+}],{
+    "name":"Stanly",
+    "gender":"male",
+    "age":"99",
+    "intro":"还是另请高明吧",
+    "department":"tech",
+    "grade":"second"
+},{
+    "errmsg":"评论成功！",
+    "errcode":0
+}]
