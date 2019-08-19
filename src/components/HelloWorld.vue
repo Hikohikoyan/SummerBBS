@@ -1,34 +1,27 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    
-    <router-view>about</router-view>
+    <el-timeline>
+      <el-timeline-item timestamp="2018/4/12" placement="top">
+      </el-timeline-item> 
+    </el-timeline>
   </div>
 </template>
 
 <script>
+import axios from 'axios';
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
+  data(){
+    return
+  },
+  created(){
+    axios.get('../assets/passage.json')
+    .then(Response)
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>

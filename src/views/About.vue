@@ -15,11 +15,7 @@
   </div>
 </template>
 <script>
-  import showstatus from '../components/show_status.vue'
   export default {
   name: 'about',
-  components: {
-    showstatus
-    }
     }
 </script>
